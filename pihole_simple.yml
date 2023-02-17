@@ -4,7 +4,7 @@ integrations:
       name: pihole_simple
       apis:
         - name: pihole_simple
-#          url: http://pi.hole/admin/api.php?summaryRaw&auth= #<your API Key Here>
+          url: http://pi.hole/admin/api.php?summaryRaw&auth= abcdefg1234567890 #your auth key goes here 
           headers:
             accept: application/json
       remove_keys:
